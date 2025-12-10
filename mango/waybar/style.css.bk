@@ -17,8 +17,8 @@ tooltip {
     border-radius: 1px;
     border-width: 1px;
     border-style: solid;
-    border-color: #ddca9e;
-    color: #c9b890;
+    border-color: #c9b890;
+    color: #ddca9e;
 }
 
 #language,
@@ -59,7 +59,7 @@ tooltip {
     border-radius: 4px;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     margin-left: 4px;
     padding-left: 10px;
     padding-right: 6px;
@@ -71,7 +71,7 @@ tooltip {
     background: none;
     box-shadow: inherit;
     text-shadow: inherit;
-    color: #c9b890;
+    color: #ddca9e;
     padding: 1px;
     padding-left: 1px;
     padding-right: 1px;
@@ -86,16 +86,16 @@ tooltip {
 }
 
 #workspaces button.visible {
-    color: #c9b890;
+    color: #ddca9e;
 }
 
 #workspaces button:hover {
-color: #c9b890;
+    color: #d79921;
 }
 
 #workspaces button.active {
-    background-color: #c9b890;
-    color: rgba(40, 40, 40, 0.76);
+    background-color: #ddca9e;
+    color: #282828;
     margin-top: 5px;
     margin-bottom: 5px;
     padding-top: 1px;
@@ -104,8 +104,8 @@ color: #c9b890;
 }
 
 #workspaces button.urgent {
-background-color: #c9b890;
-color: rgba(40, 40, 40, 0.76);
+    background-color: #ef5e5e;
+    color: #282828;
     margin-top: 5px;
     margin-bottom: 5px;
     padding-top: 1px;
@@ -117,7 +117,7 @@ color: rgba(40, 40, 40, 0.76);
     border-radius: 4px;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     margin-left: 4px;
     padding-left: 10px;
     padding-right: 6px;
@@ -151,11 +151,11 @@ color: rgba(40, 40, 40, 0.76);
 }
 
 #tags button.occupied {
-    color: #c9b890;
+    color: #ddca9e;
 }
 
 #tags button.overview {
-    color: #c9b890;
+    color: #ddca9e;
 }
 
 #tags button:hover {
@@ -163,8 +163,8 @@ color: rgba(40, 40, 40, 0.76);
 }
 
 #tags button.focused {
-    background-color: #c9b890;
-    color: rgba(40, 40, 40, 0.76);
+    background-color: #ddca9e;
+    color: #282828;
     margin-top: 5px;
     margin-bottom: 5px;
     padding-top: 1px;
@@ -173,8 +173,8 @@ color: rgba(40, 40, 40, 0.76);
 }
 
 #tags button.urgent {
-    background-color: #c9b890;
-    color: rgba(40, 40, 40, 0.76);
+    background-color: #ef5e5e;
+    color: #282828;
     margin-top: 5px;
     margin-bottom: 5px;
     padding-top: 1px;
@@ -187,13 +187,13 @@ color: rgba(40, 40, 40, 0.76);
     border-radius: 4px;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     margin-right: 4px;
     margin-left: 4px;
     padding-right: 8px;
     padding-left: 9px;
     padding-top: 2px;
-    color: #c9b890;
+    color: #ddca9e;
 }
 
 #network {
@@ -201,7 +201,7 @@ color: rgba(40, 40, 40, 0.76);
     border-radius: 4px;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     margin-right: 4px;
     margin-left: 0px;
     padding-right: 8px;
@@ -215,7 +215,7 @@ color: rgba(40, 40, 40, 0.76);
     border-radius: 4px;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     margin-left: 4px;
     padding-right: 6px;
     padding-left: 4px;
@@ -223,10 +223,10 @@ color: rgba(40, 40, 40, 0.76);
 
 #language {
     background: rgba(40, 40, 40, 0.76);
-    color: #c9b890;
+    color: #ddca9e;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     border-right: 0px;
     border-radius: 4px 0px 0px 4px;
     min-width: 24px;
@@ -234,41 +234,41 @@ color: rgba(40, 40, 40, 0.76);
 
 #keyboard-state {
     background: none;
-    color: #c9b890;
+    color: #ddca9e;
     border: none;
     padding-top: 1px;
 }
 
 #custom-updates {
     background: rgba(40, 40, 40, 0.76);
-    color: #c9b890;
+    color: #ddca9e;
     border-radius: 0px 4px 4px 0px;
     border-width: 2px;
     border-left: 0px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
 }
 
 #window {
     background: rgba(40, 40, 40, 0.76);
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     border-radius: 4px;
     margin-left: 0px;
     margin-right: 10px;
-    color: #c9b890;
+    color: #ddca9e;
 }
 
 #taskbar {
     background: rgba(40, 40, 40, 0.76);
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     border-radius: 4px;
     margin-left: 10px;
     margin-right: 10px;
-    color: #c9b890;
+    color: #ddca9e;
 }
 
 #taskbar.empty {
@@ -311,7 +311,7 @@ color: rgba(40, 40, 40, 0.76);
 }
 
 #taskbar button.active {
-    background-color: #c9b890;
+    background-color: #ddca9e;
     color: #282828;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -326,10 +326,10 @@ color: rgba(40, 40, 40, 0.76);
     background: rgba(40, 40, 40, 0.76);
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     border-right: 0px;
     border-left: 0px;
-    color: #c9b890;
+    color: #ddca9e;
 }
 
 #cava {
@@ -337,9 +337,9 @@ color: rgba(40, 40, 40, 0.76);
     border-radius: 4px 0px 0px 4px;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     margin-left: 4px;
-    color: #c9b890;
+    color: #ddca9e;
 }
 
 #pulseaudio {
@@ -348,7 +348,7 @@ color: rgba(40, 40, 40, 0.76);
     border-width: 2px;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     border-right: 0px;
     margin-left: 0px;
     border-radius: 4px 0px 0px 4px;
@@ -359,7 +359,7 @@ color: rgba(40, 40, 40, 0.76);
     color: #ddca9e;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     border-right: 0px;
     border-left: 0px;
     border-radius: 0px;
@@ -367,10 +367,10 @@ color: rgba(40, 40, 40, 0.76);
 
 #custom-gpu-usage {
     background: rgba(40, 40, 40, 0.76);
-    color: #c9b890;
+    color: #ddca9e;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     border-right: 0px;
     border-left: 0px;
     border-radius: 0px;
@@ -381,7 +381,7 @@ color: rgba(40, 40, 40, 0.76);
     color: #ddca9e;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     border-right: 0px;
     border-left: 0px;
     border-radius: 0px;
@@ -392,7 +392,7 @@ color: rgba(40, 40, 40, 0.76);
     color: #ddca9e;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     border-right: 0px;
     border-left: 0px;
     border-radius: 0px;
@@ -400,10 +400,10 @@ color: rgba(40, 40, 40, 0.76);
 
 #image {
     background: rgba(40, 40, 40, 0.76);
-    color: #c9b890;
+    color: #ddca9e;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     border-right: 0px;
     border-left: 0px;
     border-radius: 0px;
@@ -416,10 +416,10 @@ color: rgba(40, 40, 40, 0.76);
 
 #backlight {
     background: rgba(40, 40, 40, 0.76);
-    color: #c9b890;
+    color: #ddca9e;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     border-right: 0px;
     border-left: 0px;
     border-radius: 0px;
@@ -430,7 +430,7 @@ color: rgba(40, 40, 40, 0.76);
     color: #ddca9e;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     border-radius: 0px 4px 4px 0px;
     border-left: 0px;
     margin-right: 0px;
@@ -438,11 +438,11 @@ color: rgba(40, 40, 40, 0.76);
 
 #battery {
     background: rgba(40, 40, 40, 0.76);
-    color: #c9b890;
+    color: #ddca9e;
     border-radius: 4px;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     margin-left: 4px;
     margin-right: 4px;
     padding-right: 6px;
@@ -451,12 +451,12 @@ color: rgba(40, 40, 40, 0.76);
 
 #custom-fortune {
     background: rgba(40, 40, 40, 0.76);
-    color: #c9b890;
+    color: #ddca9e;
     font-size: 18px;
     border-radius: 4px;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     margin-left: 4px;
     padding-right: 6px;
     padding-left: 4px;
@@ -464,11 +464,11 @@ color: rgba(40, 40, 40, 0.76);
 
 #clock {
     background: rgba(40, 40, 40, 0.76);
-    color: #c9b890;
+    color: #ddca9e;
     border-radius: 4px;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     margin-left: 4px;
     padding-right: 6px;
     padding-left: 4px;
@@ -476,11 +476,11 @@ color: rgba(40, 40, 40, 0.76);
 
 #mpris {
     background: rgba(40, 40, 40, 0.76);
-    color: #c9b890;
+    color: #ddca9e;
     border-radius: 4px;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     margin-left: 4px;
     padding-right: 6px;
     padding-left: 4px;
@@ -488,12 +488,12 @@ color: rgba(40, 40, 40, 0.76);
 
 #custom-cava {
     background: rgba(40, 40, 40, 0.76);
-    color: #c9b890;
+    color: #ddca9e;
     font-family: Hack;
     border-radius: 4px;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     margin-left: 4px;
     padding-right: 4px;
     padding-left: 4px;
@@ -501,11 +501,11 @@ color: rgba(40, 40, 40, 0.76);
 
 #custom-power {
     background: rgba(40, 40, 40, 0.76);
-    color: #c9b890;
+    color: #ddca9e;
     border-radius: 4px;
     border-width: 2px;
     border-style: solid;
-    border-color: #ddca9e;
+    border-color: #c9b890;
     margin-left: 4px;
     padding-right: 10px;
     padding-left: 10px;
