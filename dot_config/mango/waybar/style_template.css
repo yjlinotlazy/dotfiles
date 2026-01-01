@@ -1,0 +1,512 @@
+* {
+    border: none;
+    font-family: Maple Mono NF CN;
+    font-weight: 900;
+    font-size: 17px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+tooltip {
+    background: {bg_color1};
+    border-radius: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: {border_color1};
+    color: {text_color1};
+}
+
+#language,
+#custom-updates,
+#custom-weather,
+#window,
+#taskbar,
+#tags,
+#workspaces,
+#custom-playerctl,
+#clock,
+#battery,
+#pulseaudio,
+#cpu,
+#memory,
+#battery,
+#temperature,
+#backlight,
+#network,
+#workspaces,
+#tray,
+#cava,
+#keyboard-state,
+#custom-notification,
+#custom-weather,
+#custom-fortune,
+#custom-disk,
+#custom-cava,
+#custom-power {
+    background: none;
+    padding: 0px 2px;
+    margin: 0px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+#workspaces {
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color1};
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 6px;
+    background: {bg_color1};
+}
+
+#workspaces button {
+    border: none;
+    background: none;
+    box-shadow: inherit;
+    text-shadow: inherit;
+    color: {text_color1};
+    padding: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+#workspaces button.hidden {
+    color: #9e906f;
+
+    background-color: transparent;
+}
+
+#workspaces button.visible {
+    color: {text_color1};
+}
+
+#workspaces button:hover {
+color: {text_color1};
+}
+
+#workspaces button.active {
+    background-color: {text_color1};
+    color: {bg_color1};
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    border-radius: 3px;
+}
+
+#workspaces button.urgent {
+background-color: {text_color1};
+color: {bg_color1};
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    border-radius: 3px;
+}
+
+#tags {
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color1};
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 6px;
+    background: {bg_color1};
+}
+
+#tags button {
+    border: none;
+    background: none;
+    box-shadow: inherit;
+    text-shadow: inherit;
+    color: #928374;
+    padding: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-right: 4px;
+}
+
+#tags button {
+    color: #928374;
+}
+
+#tags button:not(.occupied):not(.focused):not(.overview):not(.urgent) {
+    font-size: 0;
+    min-width: 0;
+    min-height: 0;
+    margin: -17px;
+    padding: 0;
+    color: transparent;
+    background-color: transparent;
+}
+
+#tags button.occupied {
+    color: {text_color1};
+}
+
+#tags button.overview {
+    color: {text_color1};
+}
+
+#tags button:hover {
+    color: #d79921;
+}
+
+#tags button.focused {
+    background-color: {text_color1};
+    color: {bg_color1};
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    border-radius: 3px;
+}
+
+#tags button.urgent {
+    background-color: {text_color1};
+    color: {bg_color1};
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    border-radius: 3px;
+}
+
+#tray {
+    background: {bg_color1};
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color1};
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-right: 8px;
+    padding-left: 9px;
+    padding-top: 2px;
+    color: {text_color1};
+}
+
+#network {
+    background: {bg_color2};
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color2};
+    margin-right: 4px;
+    margin-left: 0px;
+    padding-right: 8px;
+    padding-left: 9px;
+    padding-top: 2px;
+    color: {text_color2};
+}
+
+#workspaces {
+    background: {bg_color1};
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color1};
+    margin-left: 4px;
+    padding-right: 6px;
+    padding-left: 4px;
+}
+
+#language {
+    background: {bg_color1};
+    color: {text_color1};
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color1};
+    border-right: 0px;
+    border-radius: 4px 0px 0px 4px;
+    min-width: 24px;
+}
+
+#keyboard-state {
+    background: none;
+    color: {text_color1};
+    border: none;
+    padding-top: 1px;
+}
+
+#custom-updates {
+    background: {bg_color1};
+    color: {text_color1};
+    border-radius: 0px 4px 4px 0px;
+    border-width: 2px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: {border_color1};
+}
+
+#window {
+    background: {bg_color1};
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color1};
+    border-radius: 4px;
+    margin-left: 0px;
+    margin-right: 10px;
+    color: {text_color1};
+}
+
+#taskbar {
+    background: {bg_color1};
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color1};
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: {text_color1};
+}
+
+#taskbar.empty {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+    border-radius: 0px;
+    border-color: transparent;
+    border: none;
+    background-color: transparent;
+}
+
+#taskbar button {
+    margin-right: 3px;
+}
+
+#taskbar button.minimized {
+    background-color: #c4939d;
+    color: #282828;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 3px;
+}
+
+#taskbar button.urgent {
+    background-color: #ce3d0d;
+    color: #282828;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 3px;
+}
+
+#taskbar button.active {
+    background-color: {text_color1};
+    color: #282828;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 3px;
+}
+
+#custom-playerctl {
+    background: {bg_color1};
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color1};
+    border-right: 0px;
+    border-left: 0px;
+    color: {text_color1};
+}
+
+#cava {
+    background: {bg_color1};
+    border-radius: 4px 0px 0px 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color1};
+    margin-left: 4px;
+    color: {text_color1};
+}
+
+#pulseaudio {
+    background: {bg_color2};
+    color: {text_color2};
+    border-width: 2px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color2};
+    border-right: 0px;
+    margin-left: 0px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+#cpu {
+    background: {bg_color2};
+    color: {text_color2};
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color2};
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 0px;
+}
+
+#custom-gpu-usage {
+    background: {bg_color1};
+    color: {text_color1};
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color1};
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 0px;
+}
+
+#memory {
+    background: {bg_color2};
+    color: {text_color2};
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color2};
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 0px;
+}
+
+#custom-disk {
+    background: {bg_color2};
+    color: {text_color2};
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color2};
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 0px;
+}
+
+#image {
+    background: {bg_color1};
+    color: {text_color1};
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color1};
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 0px;
+    padding: 0px 0px;
+    margin: 0px;
+    margin-top: 1px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#backlight {
+    background: {bg_color1};
+    color: {text_color1};
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color1};
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 0px;
+}
+
+#temperature {
+    background: {bg_color2};
+    color: {text_color2};
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color2};
+    border-radius: 0px 4px 4px 0px;
+    border-left: 0px;
+    margin-right: 0px;
+}
+
+#battery {
+    background: {bg_color3};
+    color: {text_color3};
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color3};
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-right: 6px;
+    padding-left: 4px;
+}
+
+#custom-fortune {
+    background: {bg_color5};
+    color: {text_color5};
+    font-size: 18px;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color5};
+    margin-left: 4px;
+    padding-right: 6px;
+    padding-left: 4px;
+}
+
+#clock {
+    background: {bg_color4};
+    color: {text_color4};
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color4};
+    margin-left: 4px;
+    padding-right: 6px;
+    padding-left: 4px;
+}
+
+#mpris {
+    background: {bg_color5};
+    color: {text_color5};
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color5};
+    margin-left: 4px;
+    padding-right: 6px;
+    padding-left: 4px;
+}
+
+#custom-cava {
+    background: {bg_color5};
+    color: {text_color5};
+    font-family: Hack;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color5};
+    margin-left: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+#custom-power {
+    background: {bg_color1};
+    color: {text_color1};
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: {border_color1};
+    margin-left: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
