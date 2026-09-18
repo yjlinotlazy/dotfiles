@@ -2,7 +2,7 @@ import argparse
 import pandas as pd
 import os
 
-css_path = "/home/yli/e/Dropbox/github/dotfiles/mango/waybar/"
+css_path = "/home/$USER/e/Dropbox/github/dotfiles/mango/waybar/"
 template = "style_template.css"
 
 

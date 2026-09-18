@@ -1,6 +1,6 @@
 #!/bin/sh
 
-raw=`df -HBG /home/yli/e | grep /dev/`
+raw=`df -HBG /home/$USER/e | grep /dev/`
 
 used=`echo $raw | awk '{print $3}'`
 

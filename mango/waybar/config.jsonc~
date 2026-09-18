@@ -51,7 +51,7 @@
         }
     },
     "image#cpu": {
-	"path": "/home/yli/.config/mango/waybar/images/cpu.png",
+	"path": "/home/$USER/.config/mango/waybar/images/cpu.png",
 	"size": 20,
 	"interval": 5,
     },
@@ -60,7 +60,7 @@
       "format": "{load}%  "
     },
     "image#ram": {
-	"path": "/home/yli/.config/mango/waybar/images/ram.png",
+	"path": "/home/$USER/.config/mango/waybar/images/ram.png",
 	"size": 20,
 	"interval": 5,
     },
@@ -158,19 +158,19 @@
     },
     "custom/fortune": {
         "format": "{}",
-	"exec": "/home/yli/miniconda3/bin/daily_fortune",
+	"exec": "/home/$USER/miniconda3/bin/daily_fortune",
 	//"exec": "daily_fortune",
 	"interval": 300,
 	"tooltip": false
     },
     "image#disk": {
-	"path": "/home/yli/.config/mango/waybar/images/disk.png",
+	"path": "/home/$USER/.config/mango/waybar/images/disk.png",
 	"size": 20,
 	"interval": 5,
     },
     "custom/disk": {
         "format": "{}  ",
-	"exec": "/home/yli/.config/mango/scripts/disk_info.sh",
+	"exec": "/home/$USER/.config/mango/scripts/disk_info.sh",
 	"interval": 300,
     },
     "pulseaudio#microphone": {
